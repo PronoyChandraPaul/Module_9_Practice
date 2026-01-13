@@ -186,6 +186,24 @@ margin-top: 10px;
   grid-template-columns: repeat(5, 1fr);
   filter:grayscale(100%) ;
 }
+/* footer section  */
+
+.footer-container {
+    background-color: #FFF3E0; 
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin: 50px 200px;
+}
+
+.footer-content p {
+    margin: 0;
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
 /* smaller dveice  */
 @media screen and (max-width:576px){
   .navbar , 
@@ -204,7 +222,7 @@ margin-top: 10px;
   justify-items: center;
   gap: 24px;
 }
-    .our-features{
+    .our-features {
       margin-left: 20px;
     
     }
@@ -216,7 +234,15 @@ margin-top: 10px;
       margin-top: 20px;
       margin-left: 20px;
     }
-   
+   .footer-container {
+        padding: 25px 15px;
+        margin: 10px;
+    }
+    
+    .footer-content p {
+        font-size: 14px; 
+        line-height: 1.5;
+    }
 }
 
 /* medium device  */
