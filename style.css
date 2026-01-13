@@ -131,10 +131,18 @@ main > section{
 }
 .features-img{
   margin-top: 150px;
+  width: 100%;
 }
-.big-button {
-background-color: red;
-
+#big-button{
+padding: 45px 42px;
+font-size: 1.25rem;
+font-weight: 500;
+margin-left: -100px;
+margin-top: -100px;
+}
+#experience-year {
+font-size: 4rem;
+font-weight: 700;
 }
 /* some fact card style  */
 
@@ -182,6 +190,7 @@ margin-top: 10px;
 @media screen and (max-width:576px){
   .navbar , 
   .navbar-links , 
+  .features-section-start,
   .teams{
     flex-direction: column;
   }
@@ -203,11 +212,16 @@ margin-top: 10px;
     gap: 30px;
     justify-items: center;
     }
+    #big-button{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+   
 }
 
 /* medium device  */
 @media screen and (min-width:576px) and (max-width:992px){
-  .teams{
+  .teams, .features-section-start{
     flex-direction: column;
   }
   .our-features{
@@ -221,4 +235,10 @@ margin-top: 10px;
   gap: 50px;
   margin-left: 50px;
 }
+ #big-button{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+   
+
 }
