@@ -110,8 +110,35 @@ main > section{
 #titel-one{
   font-weight: 500;
 }
+/* Features you will love & enjoy section  */
+.features-section-start{
+  gap: 140px;
+}
+#features-title-start{
+  border-left: 5px solid orange;
+  padding: 20px;
+}
+.features-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.070);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.features-section-start .features-card{
+  font-weight: 600;
+  font-size: 1.25rem;
+  
+}
+.features-img{
+  margin-top: 150px;
+}
+.big-button {
+background-color: red;
 
+}
 /* some fact card style  */
+
+
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -144,6 +171,7 @@ margin-top: 10px;
   max-width: 540px;
   margin: 50px auto;
   text-align: center;
+ 
 }
 .sponsor-company{
   display: grid;
